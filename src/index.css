@@ -1,0 +1,78 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+h1{
+  background-color: rgb(62, 62, 245);
+  color: aliceblue;
+  display: flex;
+ justify-content: center;
+}
+/* form{
+  display: flex;
+  flex-direction: column;
+
+} */
+.inputel{
+  display: flex;
+  justify-content: space-around;
+
+}
+.theads{
+  display: flex;
+  justify-content: space-around;
+}
+th{
+  border: 1px solid black;
+  background-color: rgb(72, 72, 251);
+  color:aliceblue;
+  display: flex;
+  flex-direction: column;
+}
+button{
+ background-color: aqua;
+ width:10rem;
+}
+.buttonwala{
+  display: flex;
+  justify-content: flex-end;
+  padding:1rem;
+  margin:1rem
+}
+.theading{
+display: flex;
+justify-content: space-around;
+  align-items: center;
+  border: 1px solid black;
+  margin-left: 12rem;
+}
+
+.dataaa{
+ align-items: center;
+  justify-content: space-around;
+ margin-left: 12rem;
+  background-color:bisque;
+  width:40rem
+
+}
+td{
+  
+  
+  width:45rem
+
+}
+.deleteBtn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
